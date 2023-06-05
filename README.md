@@ -54,8 +54,9 @@ Most parameters/settings can be changed in the `.js` file.
 | POM_strSpecialTwo_Default | **false**            | Enables POM_strSpecialTwo by default       |
 | POM_mkPasswordOnLoad      | true                 | Generate password on first page load       |
 | POM_changeIsClick         | true                 | Generate password when parameters are changed |
-| POM_minLength             | 16                   | Minimum (and default) password length      |
+| POM_minLength             | 16                   | Minimum password length                    |
 | POM_maxLength             | 256                  | Maxmium password length                    |
+| POM_initLength            | 9                    | Default password length                    |
 | POM_sliderStep            | 8                    | 1 - ..                                     |
 | POM_debug                 | false                | Emit "debug" output with console.log()     |
 
